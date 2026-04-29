@@ -4,7 +4,7 @@ import Home from './Home';
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/weather">
     <Routes>
       <Route path='/' element={<Home/>}>
       </Route>
